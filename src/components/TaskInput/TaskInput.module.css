@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 12px 24px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: 0.2s all;
+
+  &:focus {
+    border: 1px solid gray;
+  }
+}
